@@ -1,0 +1,25 @@
+# requirements.txt
+
+# FastAPI framework for building APIs
+fastapi==0.95.2
+
+# ASGI server to run FastAPI
+uvicorn==0.22.0
+
+# SQLAlchemy for ORM and database interactions
+sqlalchemy==2.0.15
+
+# PostgreSQL adapter for Python
+psycopg2==2.9.6
+
+# Pydantic for data validation and settings management
+pydantic==1.10.7
+
+# Python JOSE library for JWT support
+python-jose[cryptography]==3.3.0
+
+# Passlib for password hashing utilities
+passlib==1.7.4
+
+# Bcrypt for secure password hashing
+bcrypt==4.0.1
